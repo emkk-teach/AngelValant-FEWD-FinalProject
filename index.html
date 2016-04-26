@@ -119,19 +119,21 @@
 					</tr>
 				</table>
 			</section>
-			<section>
-				<form>
-					<label for="yourName">Your Name</label>
-					<input id="yourName" type="text" name="yourName" value="Name">
-					<label for="emailAddress">Your Email</label>
-					<input type="text" name="emailAddress" value="Email">
-					<label for="messageBox">Comment</label>
-					<input type="text" name="messageBox" value="Message">
-					<input type="submit" value="send">
-				</form>
+			<section  class="clearFloat">
+				<div id="formContainer">
+					<form class="border">
+						<input id="yourName" type="text" name="yourName" value="Name">
+						<input type="text" name="emailAddress" value="Email">
+						<textarea name="messageBox">Message</textarea>
+						<label for="interest">I'm interested in:</label>
+						<input type="radio" name="interest" value="fewd"> Front-end Web Development
+  						<input type="radio" name="interest" value="backend"> Back-end Web Development
+  						<input type="submit" value="send">
+					</form>
+				</div>
 			</section>
 		</main>
-		<footer class="row">
+		<footer class="row clearFloat">
 				<section>
 					<p>
 						This is the footer of the page.

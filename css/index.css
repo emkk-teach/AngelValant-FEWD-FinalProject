@@ -18,6 +18,10 @@ img {
     float: right;
 }
 
+.clearFloat {
+    clear: both;
+}
+
 ul {
     margin: 0px;
     padding: 0px;
@@ -78,4 +82,75 @@ ul#socialmenu a:link {
 
 .video-container video.fillWidth {
     width: 100%;
+}
+
+#formContainer {
+    padding-top: 10px;
+}
+
+form  { 
+    display: table;
+    width: 450px;
+    padding: 20px;
+    margin: 0px;
+    border: 0px;      
+}
+
+label { 
+    display: table-row;
+    padding: 2px;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 0px;    
+
+}
+
+textarea {
+    display: table-row;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#submitButton {
+    padding: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 0px; 
+}
+
+input[type=text] {
+    display: table-row;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #000;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="radio"] {
+  margin-right: 0;
+  padding: 2px;
 }
